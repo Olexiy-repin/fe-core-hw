@@ -1,0 +1,49 @@
+@font-face {
+  font-family: PathwatGothicOne;
+  src: url(../fonts/PathwayGothicOne-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 480px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.inner-container {
+  width: 405px;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 12px;
+}
+
+h1 {
+  font-family: PathwatGothicOne;
+  font-weight: normal;
+  font-size: 1.5em;
+  color: #263555;
+}
+
+h4 {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #263555;
+  margin: 15px 0 18px 0;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.45;
+  word-spacing: 2px;
+}
+
+.princeples-block {
+  margin-top: 20px;
+}
