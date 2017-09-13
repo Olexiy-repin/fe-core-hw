@@ -12,15 +12,14 @@
 .container {
   width: 480px;
   height: 1400px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  box-shadow: 0 0 20px #000;
 }
 
 .inner-container {
   width: 405px;
   height: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   padding-top: 12px;
 }
 
@@ -69,8 +68,7 @@ p {
 }
 
 .princeples-block ul{
-  margin-top: 26px;
-  margin-left: 35px;
+  margin: 26px 0 0 35px;
   list-style: none;
 }
 
@@ -83,8 +81,7 @@ p {
 }
 
 .offer-block h4 {
-  margin-top: 22px;
-  margin-bottom: 23px;
+  margin: 22px 0 23px 0;
 }
 
 .offer-block ul {
