@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 480px;
+  height: 170px;
+  margin: 20px auto;
+}
+
+.container .list {
+  list-style-image: url(../images/arrow.png);
+  list-style-position: inside;
+  line-height: 2;
+  padding: 25px;
+  width: 50%;
+  box-shadow: 0 0 20px #000;
+  margin: 0 25%;
+}
