@@ -29,24 +29,25 @@
   font-weight: normal;
 }
 
-.profile-title {
-  margin-bottom: 8px;
-}
-
-.second-profile-paragraph {
-  margin-top: 12px;
-}
-
 .image {
   float: left;
   margin-right: 20px;
 }
 
+.profile-title {
+  margin-bottom: 8px;
+}
+
+.profile-paragraph {
+  text-align: justify;
+}
+
+
 /*Sidebar*/
 .sidebar {
-  width: 34%;
+  width: 30%;
   float: right;
-  padding-left: 70px;
+  margin-left: 38px;
 }
 
 .sidebar .list {
@@ -55,6 +56,10 @@
 
 .sidebar .list-item {
   margin-bottom: 36px;
+}
+
+.sidebar .list-item:last-child {
+  margin-bottom: 0;
 }
 
 .sidebar .list-item::before {
