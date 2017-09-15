@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 480px;
+  margin: 10% auto 0 auto;
+}
+
+.list {
+  list-style: none;
+  padding: 30px;
+  background-color: #929292;
+  border-radius: 6px;
+}
+
+.list-item {
+  line-height: 2.5;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  padding-left: 16px;
+}
+
+.list-item:last-child {
+  margin-bottom: 0;
+}
+
+/*apply to 1,4,7 li elements*/
+.list-item:nth-child(3n+1) {
+  background-color: #fff;
+}
+
+/*apply to 2,5,8 li elements*/
+.list-item:nth-child(3n+2) {
+  background-color: #ddd;
+}
+
+/*apply to 3,6,9 li elements*/
+.list-item:nth-child(3n+3) {
+  background-color: #bbb;
+}
+
+.list-link {
+  text-decoration: none;
+  color: #263555;
+  display: inline-block;
+  width: 100%;
+}

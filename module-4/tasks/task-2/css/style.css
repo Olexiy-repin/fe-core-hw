@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 580px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  margin: 5% auto;
+}
+
+.list {
+  list-style: none;
+  width: 100%;
+  padding: 30px;
+  font-size: 0;
+  columns: 2;
+}
+
+.list-item {
+  line-height: 2.5;
+  font-size: 16px;
+  width: 260px;
+}
+
+.list-item::before {
+  content: "\2192";
+  color: #38AFE5;
+  padding-right: 6px;
+}
+
+.list-link {
+  text-decoration: none;
+  color: #263555;
+}
