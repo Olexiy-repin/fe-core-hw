@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  height: 100vh;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.block {
+  float: left;
+  height: 100%;
+  width: 25%;
+  background-color: #ccc;
+  padding: 0 2%;
+}
+
+.block::before {
+  display: block;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  height: 90%;
+}
+
+.block::after {
+  display: block;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+}
+
+/*Colors our blocks*/
+.dark-blue {
+  background-color: #263555;
+}
+
+.grey {
+  background-color: #6b7488;
+}
+
+.aqua {
+  background-color: #38afe5;
+}
+
+.pink {
+  background-color: #fa7e7e;
+}
+
+/*Filling of our blocks after and before content*/
+.dark-blue::before {
+  content: "Applied to the: Page header(logo and hover list item), slider(one of the text element), destinitions(caption), tabs(caption for article), newsletter(captions and list items.)";
+}
+
+.dark-blue::after {
+  content: "hex:#263555\Argb(38, 53, 85)";
+  white-space: pre;
+}
+
+.grey::before {
+  content: "Applied to the: Drop-down menu(all items), tabs (disactive tabs).";
+}
+
+.grey::after {
+  content: "hex:#6b7488\Argb(107, 116, 136)";
+  white-space: pre;
+}
+
+.aqua::before {
+  content: "Applied to the: Tabs (active tab).";
+}
+
+.aqua::after {
+  content: "hex:#38afe5\Argb(56, 175, 229)";
+  white-space: pre;
+}
+
+.pink::before {
+  content: "Applied to the: Tabs(link(Click here)).";
+}
+
+.pink::after {
+  content: "hex:#fa7e7e\Argb(250, 126, 126)";
+  white-space: pre;
+}
