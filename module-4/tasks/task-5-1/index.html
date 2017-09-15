@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="specificity-container">
+      <p class="specificity-paragraph">#myid:focus</p>
+      <div class="specificity-blocks clearfix">
+        <div class="inline block">0</div>
+        <div class="id block">1</div>
+        <div class="classes block">1</div>
+        <div class="elements block">0</div>
+      </div>
+    </div>
+    <div class="specificity-container">
+      <p class="specificity-paragraph">.menu > li > a:hover</p>
+      <div class="specificity-blocks clearfix">
+        <div class="inline block">0</div>
+        <div class="id block">0</div>
+        <div class="classes block">2</div>
+        <div class="elements block">2</div>
+      </div>
+    </div>
+    <div class="specificity-container">
+      <p class="specificity-paragraph">#myid:nth-of-type(5) > ul > li a:hover</p>
+      <div class="specificity-blocks clearfix">
+        <div class="inline block">0</div>
+        <div class="id block">1</div>
+        <div class="classes block">2</div>
+        <div class="elements block">3</div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
