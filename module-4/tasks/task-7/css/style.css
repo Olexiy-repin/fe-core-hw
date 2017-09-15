@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 2%;
+}
+
+.wrapper {
+  width: 1024px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  padding: 18px 16px 18px 16px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Main content*/
+.content {
+  float: left;
+  width: 66%;
+}
+
+.caption {
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  font-weight: normal;
+}
+
+.image {
+  float: left;
+  margin-right: 20px;
+}
+
+.profile-title {
+  margin-bottom: 8px;
+}
+
+.profile-paragraph {
+  text-align: justify;
+}
+
+
+/*Sidebar*/
+.sidebar {
+  width: 30%;
+  float: right;
+  margin-left: 4%;
+}
+
+.sidebar .list {
+  list-style: none;
+}
+
+.sidebar .list-item {
+  margin-bottom: 36px;
+}
+
+.sidebar .list-item:last-child {
+  margin-bottom: 0;
+}
+
+.sidebar .list-item::before {
+  display: block;
+  float: left;
+  width: 25px;
+  height: 25px;
+  background-color: #38AFE5;
+  content: "1";
+  border-radius: 50%;
+  text-align: center;
+  line-height: 25px;
+  color: #fff;
+}
+
+.sidebar .list-item:nth-child(2n)::before {
+  content: "2";
+}
+
+.sidebar .list-item:nth-child(3n)::before {
+  content: "3";
+}
+
+.list-item-content {
+  margin-left: 46px;
+}

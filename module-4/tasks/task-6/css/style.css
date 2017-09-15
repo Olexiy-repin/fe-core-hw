@@ -10,83 +10,31 @@ body {
 
 .wrapper {
   width: 1024px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  height: 500px;
   margin: 0 auto;
-  padding: 18px 16px 18px 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .clearfix::after {
   content: "";
-  display: table;
+  display: block;
   clear: both;
 }
 
-/*Main content*/
-.content {
+.main {
   float: left;
-  width: 66%;
-}
-
-.caption {
+  background-color: #92BCEA;
+  width: 70%;
   text-transform: uppercase;
-  margin-bottom: 40px;
-  font-weight: normal;
-}
-
-.image {
-  float: left;
-  margin-right: 20px;
-}
-
-.profile-title {
-  margin-bottom: 8px;
-}
-
-.profile-paragraph {
-  text-align: justify;
-}
-
-
-/*Sidebar*/
-.sidebar {
-  width: 30%;
-  float: right;
-  margin-left: 4%;
-}
-
-.sidebar .list {
-  list-style: none;
-}
-
-.sidebar .list-item {
-  margin-bottom: 36px;
-}
-
-.sidebar .list-item:last-child {
-  margin-bottom: 0;
-}
-
-.sidebar .list-item::before {
-  display: block;
-  float: left;
-  width: 25px;
-  height: 25px;
-  background-color: #38AFE5;
-  content: "1";
-  border-radius: 50%;
   text-align: center;
-  line-height: 25px;
-  color: #fff;
+  line-height: 500px;
 }
 
-.sidebar .list-item:nth-child(2n)::before {
-  content: "2";
-}
-
-.sidebar .list-item:nth-child(3n)::before {
-  content: "3";
-}
-
-.list-item-content {
-  margin-left: 46px;
+.aside {
+  float: right;
+  background-color: #AFB3F7;
+  width: 30%;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 500px;
 }
