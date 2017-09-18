@@ -1,0 +1,15 @@
+.offer-caption {
+  text-transform: uppercase;
+  margin-bottom: 67px;
+  font-weight: normal;
+  color: #263555;
+}
+
+.offer-sub-caption {
+  color: #263555;
+}
+
+.offer-paragraph {
+  text-align: justify;
+  margin: 28px 0 35px 0;
+}

@@ -1,0 +1,35 @@
+.testimonial-caption {
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  font-weight: normal;
+  color: #263555;
+}
+
+.quote-container {
+  background-color: #fcfafa;
+  padding: 22px;
+  color: #263555;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.quote-paragraph::before {
+  content: "\201c";
+}
+
+.quote-paragraph::after {
+  content: "\201d";
+}
+
+.quote-paragraph {
+  text-indent: 8px;
+}
+
+.testimonial-sub-caption {
+  text-align: center;
+  color: #263555;
+  margin: 36px 0 20px 0;
+}
+
+.testimonial-paragraph {
+  text-align: center;
+}

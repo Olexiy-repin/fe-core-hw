@@ -1,0 +1,21 @@
+.offer-container .list {
+  list-style: none;
+  columns: 2;
+}
+
+.offer-container .list-item {
+  line-height: 2.5;
+  font-size: 16px;
+}
+
+.offer-container .list-link {
+  text-decoration: none;
+  color: #263555;
+  display: block;
+}
+
+.offer-container .list-link::before {
+  content: "\2192";
+  color: #38AFE5;
+  margin-right: 8px;
+}

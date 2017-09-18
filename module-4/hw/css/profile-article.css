@@ -1,0 +1,26 @@
+.profile-article {
+  float: left;
+  width: 66%;
+  margin-bottom: 54px;
+}
+
+.caption {
+  text-transform: uppercase;
+  margin-bottom: 48px;
+  font-weight: normal;
+  color: #263555;
+}
+
+.image {
+  float: left;
+  margin-right: 24px;
+}
+
+.profile-title {
+  margin-bottom: 18px;
+  color: #263555;
+}
+
+.profile-paragraph {
+  text-align: justify;
+}
