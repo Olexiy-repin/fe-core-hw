@@ -27,6 +27,7 @@ body {
 .top-container {
   border-bottom: 1px solid #dedbdb;
   margin-bottom: 58px;
+  padding-bottom: 54px;
 }
 
 .offer-container {

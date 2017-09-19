@@ -7,9 +7,10 @@
 
 .offer-sub-caption {
   color: #263555;
+  margin-bottom: 28px;
 }
 
 .offer-paragraph {
   text-align: justify;
-  margin: 28px 0 35px 0;
+  margin: 0 0 35px 0;
 }
