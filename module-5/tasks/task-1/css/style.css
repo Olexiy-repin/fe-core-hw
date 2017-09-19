@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Dorsa;
+    src: url(../fonts/Dorsa-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  padding-top: 26px;
+}
+
+.logo {
+  font-family: 'Dorsa', sans-serif;
+  width: 138px;
+  height: 138px;
+  background-color: #38AFE5;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.logo::before {
+  display: block;
+  width: 138px;
+  height: 138px;
+  border-radius: 50%;
+  content: "journey";
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 138px;
+  font-size: 60px;
+  background-color: #fff;
+  color: #263555;
+}
