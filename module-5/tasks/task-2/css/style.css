@@ -1,0 +1,144 @@
+@font-face {
+  font-family: Pathway;
+  src: url(../fonts/PathwayGothicOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: Dorsa;
+  src: url(../fonts/Dorsa-Regular.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-image: url(../img/main-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.content-wrapper {
+  width: 1024px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 58px 60px;
+}
+
+.header {
+  width: 1024px;
+  margin: 0 auto;
+  padding: 0 60px;
+  position: relative;
+}
+
+/*style for header list*/
+.list{
+  list-style: none;
+  font-size: 28px;
+  padding: 102px 40px;
+}
+
+.list-item {
+  float: left;
+  margin-right: 60px;
+}
+
+.list-item:nth-child(3) {
+  margin-right: 230px;
+}
+
+.list-item:last-child {
+  margin-right: 0;
+}
+
+.list-link {
+  font-family: Pathway;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #fff;
+}
+
+.list-link:hover {
+  color: #263555;
+}
+
+/*style for logo*/
+.logo {
+  font-family: 'Dorsa', sans-serif;
+  width: 138px;
+  height: 138px;
+  position: absolute;
+  top: 20%;
+  left: 43%;
+  text-decoration: none;
+}
+
+.logo::before {
+  display: block;
+  width: 138px;
+  height: 138px;
+  border-radius: 50%;
+  content: "journey";
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 138px;
+  font-size: 60px;
+  background-color: #fff;
+  color: #263555;
+}
+
+/*style for slider*/
+.slider {
+  position: relative;
+  width: 902px;
+  height: 578px;
+  background-image: url(../img/slider-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider-list {
+  position: absolute;
+  list-style: none;
+  bottom: 7%;
+  left: 4%;
+}
+
+.slider-list-item {
+  float: left;
+  background-color: #38afe5;
+  width: 45px;
+  height: 90px;
+  border-radius: 100% 0 0 100% / 50% 0 0 50%;
+}
+
+.slider-list-item:last-child {
+  border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+}
+
+.slider-list-link {
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  background-image: url(../img/larr.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slider-list-item:last-child .slider-list-link{
+  background-image: url(../img/rarr.png);
+}
+
+.slider-list-link:hover {
+  opacity: 0.5;
+}
