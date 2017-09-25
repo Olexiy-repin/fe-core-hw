@@ -43,16 +43,18 @@ html {
 /*style for header list*/
 .list{
   list-style: none;
+  text-align: center;
   font-size: 28px;
 }
 
 .list-item {
   float: left;
-  margin-right: 60px;
+  width: 12%;
+  position: relative;
 }
 
 .list-item:nth-child(3) {
-  margin-right: 230px;
+  margin-right: 28%;
 }
 
 .list-item:last-child {
@@ -69,6 +71,42 @@ html {
 
 .list-link:hover {
   color: #263555;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  list-style: none;
+  background-color: #fff;
+  padding: 8px;
+  border-radius: 6px;
+  font-family: Pathway;
+  font-size: 20px;
+  text-transform: uppercase;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.list .list-item:nth-child(2):hover > .submenu {
+  display: block;
+}
+
+.submenu::before {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 9%;
+  left: 50%;
+  transform: rotate(45deg) translateX(-50%);
+  z-index: -1;
+  background-color: #fff;
+}
+
+.submenu-link {
+  text-decoration: none;
+  color: #9096a4;
 }
 
 /*style for logo*/
