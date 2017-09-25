@@ -40,8 +40,10 @@ html {
   position: relative;
 }
 
+
 /*style for header list*/
-.list{
+
+.list {
   list-style: none;
   text-align: center;
   font-size: 28px;
@@ -87,7 +89,7 @@ html {
   transform: translateX(-50%);
 }
 
-.list .list-item:nth-child(2):hover > .submenu {
+.list .list-item:nth-child(2):hover>.submenu {
   display: block;
 }
 
@@ -109,7 +111,9 @@ html {
   color: #9096a4;
 }
 
+
 /*style for logo*/
+
 .logo {
   font-family: 'Dorsa', sans-serif;
   width: 138px;
@@ -128,7 +132,9 @@ html {
   color: #263555;
 }
 
+
 /*style for slider*/
+
 .slider {
   position: relative;
   width: 902px;
@@ -166,7 +172,7 @@ html {
   background-position: center;
 }
 
-.slider-list-item:last-child .slider-list-link{
+.slider-list-item:last-child .slider-list-link {
   background-image: url(../img/rarr.png);
 }
 
