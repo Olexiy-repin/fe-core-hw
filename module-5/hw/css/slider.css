@@ -46,26 +46,26 @@
   opacity: 0.5;
 }
 
-.slider-paragraph {
+.slider-paragraphs {
   position: absolute;
+  top: 36%;
+}
+
+.slider-paragraph {
   text-transform: uppercase;
   font-family: Pathway;
+  padding: 6% 4%;
 }
 
 .first-paragraph {
+  display: inline-block;
   background-color: #fff;
   color: #263555;
-  position: absolute;
-  top: 36%;
   font-size: 22px;
-  padding: 2%;
 }
 
 .second-paragraph {
   background-color: #38afe5;
   color: #fff;
-  position: absolute;
-  top: 46%;
   font-size: 34px;
-  padding: 2%;
 }
