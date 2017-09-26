@@ -26,6 +26,7 @@
   text-transform: uppercase;
   font-weight: normal;
   color: #fff;
+  transition: 0.5s;
 }
 
 .list-link:hover {
@@ -33,7 +34,9 @@
 }
 
 .submenu {
-  display: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s;
   position: absolute;
   list-style: none;
   background-color: #fff;
@@ -46,8 +49,9 @@
   transform: translateX(-50%);
 }
 
-.list .list-item:nth-child(2):hover>.submenu {
-  display: block;
+.list .list-item:nth-child(2):hover > .submenu {
+  visibility: visible;
+  opacity: 1;
 }
 
 .submenu::before {

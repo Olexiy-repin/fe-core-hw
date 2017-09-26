@@ -9,7 +9,7 @@
   width: 100%;
 }
 
-.slider-list {
+.slider-controls {
   position: absolute;
   list-style: none;
   bottom: 7%;
@@ -35,6 +35,7 @@
   background-image: url(../img/larr.png);
   background-repeat: no-repeat;
   background-position: center;
+  transition: 0.5s;
 }
 
 .slider-list-item:last-child .slider-list-link {

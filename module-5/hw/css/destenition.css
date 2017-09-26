@@ -11,18 +11,18 @@
   margin-bottom: 48px;
 }
 
-.gallery-body {
+.gallery-card {
   width: 30%;
   float: left;
   margin-right: 5%;
   position: relative;
 }
 
-.gallery-body:last-child {
+.gallery-card:last-child {
   margin-right: 0;
 }
 
-.gallery-body:hover > .image-description {
+.gallery-card:hover > .image-description {
   visibility: visible;
   opacity: 1;
 }
