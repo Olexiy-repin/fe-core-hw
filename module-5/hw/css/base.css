@@ -49,11 +49,11 @@ html {
 .to-top-button {
   display: block;
   position: fixed;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   bottom: 1%;
-  right: 23.5%;
+  right: 23.8%;
   background-image: url(../img/totop.png);
   background-position: center;
   background-repeat: no-repeat;
