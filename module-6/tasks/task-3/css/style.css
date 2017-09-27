@@ -1,0 +1,66 @@
+@font-face {
+  font-family: Pathway;
+  src: url(../fonts/PathwayGothicOne-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: url(../img/main-background.png);
+  background-position: center;
+  background-size: cover;
+  padding-top: 2%;
+}
+
+.wrapper {
+  width: 1024px;
+  margin: 0 auto;
+  background-color: #fff;
+  display: flex;
+  padding: 100px 0;
+}
+
+.bung {
+  flex-grow: 10;
+}
+
+.aside {
+  flex-grow: 1;
+}
+
+.categories-wrapper {
+  margin-bottom: 54px;
+}
+
+.aside-title {
+  font-family: Pathway;
+  font-size: 32px;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-bottom: 44px;
+  color: #263555;
+}
+
+.aside-list {
+  list-style: none;
+}
+
+.aside-list-link {
+  color: #263555;
+  text-decoration: none;
+  display: block;
+  line-height: 2;
+  font-size: 12px;
+  font-family: Arial;
+}
+
+.aside-list-link::before {
+  content: "\2192";
+  color: #84cdef;
+  margin-right: 3%;
+}
