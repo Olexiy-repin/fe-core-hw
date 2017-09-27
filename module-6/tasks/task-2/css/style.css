@@ -11,8 +11,10 @@
 
 body {
   height: 100vh;
-  background-color: #ccc;
   padding-top: 5%;
+  background-image: url(../img/main-background.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .wrapper {
