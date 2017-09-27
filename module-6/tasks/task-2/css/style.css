@@ -36,19 +36,18 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-content: space-between;
-  height: 544px;
 }
 
-.gallery-ellement {
+.gallery-element {
   position: relative;
-  width: 288px;
-  height: 154px;
+  width: 32%;
+  margin-bottom: 3%;
 }
 
 .gallery-img{
   display: block;
-  height: 100%;
+  height: auto;
+  width: 100%;
 }
 
 .zoom-block {
@@ -70,7 +69,7 @@ body {
   text-decoration: none;
 }
 
-.gallery-ellement:hover > .zoom-block {
+.gallery-element:hover > .zoom-block {
   visibility: visible;
   opacity: 0.5;
 }
