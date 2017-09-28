@@ -1,3 +1,7 @@
+:root {
+  --light-brown: #d8bca2;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +10,7 @@
 
 body {
   height: 100vh;
-  padding-top: 2%;
+  padding-top: 2rem;
   background-image: url(../img/main-background.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -14,8 +18,8 @@ body {
 }
 
 .wrapper {
-  width: 1024px;
-  margin: 0 auto;
+  width: 64rem;
+  margin: auto;
   background-color: #fff;
   display: flex;
   justify-content: center;
@@ -27,37 +31,33 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #d8bca2;
-}
-
-.list-item {
-  width: 40px;
-  height: 40px;
-  background-image: url(../img/social-sprite.png);
-  transition: filter 0.5s linear;
+  background-color: var(--light-brown);
 }
 
 .list-link {
   display: block;
-  height: 100%;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-image: url(../img/social-sprite.png);
+  transition: filter 0.5s linear;
 }
 
 .twitter {
-  background-position: -10px -10px;
+  background-position: -0.625rem -0.625rem;
 }
 
 .facebook {
-  background-position: -70px -70px;
+  background-position: -4.375rem -4.375rem;
 }
 
 .google {
-  background-position: -130px -130px;
+  background-position: -8.125rem -8.125rem;
 }
 
 .linkedin {
-  background-position: -190px -190px;
+  background-position: -11.875rem -11.875rem;
 }
 
-.list-item:hover {
+.list-link:hover {
   filter: opacity(0.5);
 }
