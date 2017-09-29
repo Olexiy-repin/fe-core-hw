@@ -1,6 +1,7 @@
 .testimonial-section {
   flex-grow: 1;
   margin-left: 1rem;
+  z-index: 0;
 }
 
 .testimonial-paragraph {
@@ -39,7 +40,7 @@
   width: 2rem;
   height: 2rem;
   left: 50%;
-  bottom: -8%;
+  bottom: -7%;
   transform: translateX(-50%) rotate(45deg);
   background-color: #fcfafa;
   box-shadow: 0 0 0.0625rem rgba(0, 0, 0, 0.5);
