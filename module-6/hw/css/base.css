@@ -1,0 +1,35 @@
+@font-face {
+  font-family: Pathway;
+  src: url(../fonts/PathwayGothicOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: Dorsa;
+  src: url(../fonts/Dorsa-Regular.ttf);
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url(../fonts/OpenSans-CondLight.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100vh;
+  background-image: url(../img/main-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header {
+  width: 64rem;
+  margin: 0 auto;
+  padding: 6.375rem 6.25rem;
+  position: relative;
+}
