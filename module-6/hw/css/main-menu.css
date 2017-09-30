@@ -46,6 +46,7 @@
   text-transform: uppercase;
   left: 50%;
   transform: translateX(-50%);
+  line-height: 1.2;
 }
 
 .list .list-item:nth-child(2):hover > .submenu {

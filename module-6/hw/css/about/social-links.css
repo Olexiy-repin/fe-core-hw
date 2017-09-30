@@ -1,0 +1,46 @@
+:root {
+  --light-brown: #d8bca2;
+}
+
+.social-container {
+  width: 48rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.social-list {
+  flex-basis: 25%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-list-link {
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-image: url(../../img/gallery-img/social-sprite.png);
+  transition: filter 0.5s linear;
+}
+
+.twitter {
+  background-position: -0.625rem -0.625rem;
+}
+
+.facebook {
+  background-position: -4.375rem -4.375rem;
+}
+
+.google {
+  background-position: -8.125rem -8.125rem;
+}
+
+.linkedin {
+  background-position: -11.875rem -11.875rem;
+}
+
+.social-list-link:hover {
+  filter: opacity(0.5);
+}
