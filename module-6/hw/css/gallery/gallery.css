@@ -1,9 +1,9 @@
 .gallery-title {
   font-family: Pathway;
-  font-size: 32px;
+  font-size: 2rem;
   text-transform: uppercase;
   font-weight: normal;
-  margin-bottom: 42px;
+  margin-bottom: 2.625rem;
 }
 
 .gallery {

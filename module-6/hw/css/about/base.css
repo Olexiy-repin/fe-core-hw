@@ -3,34 +3,7 @@
   --paragraph-color: #4e5050;
 }
 
-@font-face {
-  font-family: Pathway;
-  src: url(../../fonts/PathwayGothicOne-Regular.ttf);
-}
-
-@font-face {
-  font-family: Dorsa;
-  src: url(../../fonts/Dorsa-Regular.ttf);
-}
-
-@font-face {
-  font-family: OpenSans;
-  src: url(../../fonts/OpenSans-CondLight.ttf);
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 body {
-  min-height: 100vh;
-  background-image: url(../../img/main-background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding: 0 0 2rem 0;
   counter-reset: list;
 }
 

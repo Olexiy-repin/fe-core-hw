@@ -17,11 +17,16 @@
   align-items: center;
 }
 
+.social-list-item {
+  background-color: #fff;
+  border-radius: 50%;
+}
+
 .social-list-link {
   display: block;
-  width: 2.5rem;
-  height: 2.5rem;
-  background-image: url(../../img/gallery-img/social-sprite.png);
+  width: 2rem;
+  height: 2rem;
+  background-image: url(../../img/gallery-img/social-sprites.png);
   transition: filter 0.5s linear;
 }
 
@@ -30,15 +35,15 @@
 }
 
 .facebook {
-  background-position: -4.375rem -4.375rem;
+  background-position: -3.875rem -3.875rem;
 }
 
 .google {
-  background-position: -8.125rem -8.125rem;
+  background-position: -7.125rem -7.125rem;
 }
 
 .linkedin {
-  background-position: -11.875rem -11.875rem;
+  background-position: -10.375rem -10.375rem;
 }
 
 .social-list-link:hover {

@@ -1,0 +1,29 @@
+.header {
+  width: 64rem;
+  margin: 0 auto;
+  padding: 6.375rem 6.25rem;
+  position: relative;
+}
+
+.wrapper {
+  width: 64rem;
+  margin: auto;
+  background-color: #fff;
+  display: flex;
+  padding: 6.875rem 3.75rem;
+}
+
+.blog-title {
+  font-family: Pathway;
+  font-size: 2rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-bottom: 2.75rem;
+  color: #263555;
+}
+
+.blog-subtitle {
+  font-family: Arial, sans-serif;
+  font-size: 0.8rem;
+  color: #263555;
+}

@@ -1,0 +1,43 @@
+.sidebar {
+  width: 20%;
+  margin-left: 2%;
+}
+
+.categories-wrapper {
+  margin-bottom: 3.375rem;
+}
+
+.aside-title,
+.post-title
+ {
+  font-family: Pathway;
+  font-size: 2rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-bottom: 2.75rem;
+  color: #263555;
+}
+
+.aside-list {
+  list-style: none;
+}
+
+.aside-list-link {
+  color: #263555;
+  text-decoration: none;
+  display: block;
+  line-height: 2.5;
+  font-size: 0.75rem;
+  font-family: Arial;
+  transition: opacity 0.5s linear;
+}
+
+.aside-list-link::before {
+  content: "\2192";
+  color: #5abde9;
+  margin-right: 3%;
+}
+
+.aside-list-link:hover {
+  opacity: 0.5;
+}
