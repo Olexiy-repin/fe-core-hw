@@ -56,7 +56,7 @@
   margin-bottom: 0;
 }
 
-.post-body {
+.post-article {
   display: flex;
 }
 
@@ -65,7 +65,7 @@
   align-self: flex-start;
 }
 
-.post-article {
+.article-body {
   flex-basis: 52%;
 }
 
