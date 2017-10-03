@@ -1,0 +1,83 @@
+@font-face {
+  font-family: PathWay;
+  src: url(../fonts/PathwayGothicOne-Regular.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  padding-top: 2rem;
+  background-image: url(../img/main-background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  width: 64rem;
+  margin: auto;
+  background-color: #fff;
+  padding: 2rem 4rem;
+  display: flex;
+}
+
+.tours-container {
+  flex-basis: 80%;
+}
+
+.form-container {
+  flex-basis: 20%;
+}
+
+.form-body-container {
+  margin-bottom: 2rem;
+}
+
+.form-body-container:last-child {
+  margin-bottom: 0;
+}
+
+.form-title {
+  font-family: PathWay;
+  font-weight: normal;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  color: #263555;
+}
+
+.description-tours {
+  font-size: 0.7rem;
+  color: #38afe5;
+  margin-bottom: 0.2rem;
+}
+
+.select-label {
+  display: block;
+  font-size: 0.7rem;
+  margin-bottom: 0.5rem;
+}
+
+.drop-down-list {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.3rem;
+  border: 1px solid #d4d0d0;
+  background-color: #fcfafa;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.button {
+  padding: 0.3rem 0.5rem;
+  border: 1px solid #d4d0d0;
+  background-color: #fcfafa;
+  border-radius: 0.5rem;
+  color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.2);
+}
