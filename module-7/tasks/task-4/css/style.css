@@ -56,8 +56,11 @@ body {
   margin-bottom: 2rem;
 }
 
+.table:last-child {
+  margin-bottom: 0;
+}
+
 .title-table {
-  width: 80%;
   text-align: left;
   margin-bottom: 1rem;
 }
