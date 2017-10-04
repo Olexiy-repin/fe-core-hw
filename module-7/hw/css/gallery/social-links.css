@@ -1,0 +1,52 @@
+:root {
+  --light-brown: #d8bca2;
+}
+
+.social-container {
+  width: 64rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.social-list {
+  flex-basis: 20%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social-list-item {
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.social-list-link {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  background-image: url(../../img/gallery-img/social-sprites.png);
+  transition: filter 0.5s linear;
+}
+
+.twitter {
+  background-position: -0.625rem -0.625rem;
+}
+
+.facebook {
+  background-position: -3.875rem -3.875rem;
+}
+
+.google {
+  background-position: -7.125rem -7.125rem;
+}
+
+.linkedin {
+  background-position: -10.375rem -10.375rem;
+}
+
+.social-list-link:hover {
+  filter: opacity(0.5);
+}

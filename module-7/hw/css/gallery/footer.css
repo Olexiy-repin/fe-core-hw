@@ -1,0 +1,53 @@
+.footer {
+  width: 64rem;
+  margin: auto;
+  display: flex;
+  background-color: #30455b;
+  padding: 2rem 8.5rem;
+  font-family: OpenSans;
+}
+
+.footer-list {
+  flex-grow: 1;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-list-item {
+  flex-basis: 26%;
+}
+
+.footer-list-link {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  transition: opacity 0.5s linear;
+  font-weight: bold;
+}
+
+.footer-list-link:hover {
+  opacity: .5;
+}
+
+.contact-block {
+  color: #fff;
+}
+
+.contact-title {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-paragraph {
+  text-transform: uppercase;
+}
+
+.contact-email {
+  display: block;
+  margin-top: 0.2rem;
+  text-transform: none;
+}

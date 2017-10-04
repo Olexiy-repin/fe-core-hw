@@ -1,0 +1,50 @@
+/*FORM*/
+.form-container {
+  flex-basis: 20%;
+}
+
+.title {
+  font-family: PathWay;
+  font-weight: normal;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  color: #263555;
+}
+
+.input-item, .textarea-item {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: #fcfafa;
+  border: 1px solid #d4d0d0;
+  box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.2);
+}
+
+.textarea-item {
+  resize: none;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #d4d0d0;
+  background-color: #fcfafa;
+  border-radius: 0.5rem;
+  color: rgba(0, 0, 0, 0.8);
+  margin-right: 0.5rem;
+  box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.2);
+}
+
+.button:last-child {
+  margin-right: 0;
+}
+
+.button:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,42 @@
+:root {
+  --title-color: #263555;
+  --paragraph-color: #4e5050;
+}
+
+body {
+  counter-reset: list;
+}
+
+.clearfix {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.wrapper {
+  width: 48rem;
+  padding: 5.375rem 2.875rem;
+  background-color: #fff;
+  margin: auto;
+}
+
+.title {
+  font-size: 1.75rem;
+  color: var(--title-color);
+  font-family: Pathway;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+}
+
+.sub-title {
+  color: var(--title-color);
+  margin-bottom: 1rem;
+  font-weight: normal;
+}
+
+.paragraph {
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: var(--paragraph-color);
+}

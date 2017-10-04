@@ -1,0 +1,14 @@
+.header {
+  width: 64rem;
+  margin: 0 auto;
+  padding: 6.375rem 6.25rem;
+  position: relative;
+}
+
+.wrapper {
+  width: 64rem;
+  margin: auto;
+  background-color: #fff;
+  padding: 6rem 4rem;
+  display: flex;
+}

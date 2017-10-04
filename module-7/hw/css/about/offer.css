@@ -1,0 +1,39 @@
+.bottom-container {
+  display: flex;
+}
+
+.offer-section {
+  flex-grow: 12;
+}
+
+.offer-paragraph {
+  margin-bottom: 2rem;
+}
+
+.offer-list {
+  list-style: none;
+  columns: 2;
+  font-size: 0.9375rem;
+}
+
+.offer-list-item {
+  display: inline-block;
+}
+
+.offer-list-link {
+  display: block;
+  text-decoration: none;
+  color: var(--title-color);
+  line-height: 2.5;
+  transition: opacity 0.5s linear;
+}
+
+.offer-list-link::before {
+  content: "\2192";
+  color: #5abde9;
+  margin-right: 0.5rem;
+}
+
+.offer-list-link:hover {
+  opacity: 0.5;
+}
