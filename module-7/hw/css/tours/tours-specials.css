@@ -9,16 +9,16 @@
   justify-content: space-between;
 }
 
-.specials-article {
+.specials-card {
   display: flex;
   margin-bottom: 3rem;
 }
 
-.specials-article:nth-child(n+5) {
+.specials-card:nth-child(n+5) {
   margin-bottom: 0;
 }
 
-.article-img {
+.specials-img {
   align-self: flex-start;
   display: block;
   margin-right: 1rem;
