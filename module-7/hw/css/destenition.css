@@ -1,0 +1,77 @@
+.destenition-section {
+  padding-top: 3.5rem;
+}
+
+.destenition-caption {
+  font-family: Pathway;
+  font-size: 1.875rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #263555;
+  margin-bottom: 3rem;
+}
+
+.section-body {
+  display: flex;
+}
+
+.destenition-card {
+  flex-basis: 30%;
+  margin-right: 5%;
+  position: relative;
+}
+
+.destenition-card:last-child {
+  margin-right: 0;
+}
+
+.destenition-card:hover > .destenition-info {
+  visibility: visible;
+  opacity: 1;
+}
+
+.destenition-image {
+  display: block;
+  width: 100%;
+}
+
+.destenition-info {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #193149;
+  color: #fff;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+.destenition-title {
+  font-family: OpenSans;
+  font-size: 1.875rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 1.125rem 1.125rem 0 1.125rem;
+  margin-bottom: 1.125rem;
+  text-align: center;
+}
+
+.destenition-paragraph {
+  font-size: 0.625rem;
+  padding: 0.5rem;
+}
+
+.destenition-link {
+  position: absolute;
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  padding: 0.25rem 0.625rem;
+  border-radius: 0.375rem;
+  background-color: #fff;
+  font-size: 0.75rem;
+  bottom: 10%;
+  right: 8%;
+}

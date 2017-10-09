@@ -1,0 +1,71 @@
+/*style for slider*/
+
+.slider {
+  position: relative;
+}
+
+.slider-image {
+  display: block;
+  width: 100%;
+}
+
+.slider-controls {
+  position: absolute;
+  list-style: none;
+  display: flex;
+  bottom: 7%;
+  left: 4%;
+}
+
+.slider-list-item {
+  background-color: #38afe5;
+  width: 2.875rem;
+  height: 5.625rem;
+  border-radius: 100% 0 0 100% / 50% 0 0 50%;
+}
+
+.slider-list-item:last-child {
+  border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+}
+
+.slider-list-link {
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  background-image: url(../img/home-img/larr.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.5s;
+}
+
+.slider-list-item:last-child .slider-list-link {
+  background-image: url(../img/home-img/rarr.png);
+}
+
+.slider-list-link:hover {
+  opacity: 0.5;
+}
+
+.slider-paragraphs {
+  position: absolute;
+  top: 36%;
+}
+
+.slider-paragraph {
+  text-transform: uppercase;
+  font-family: Pathway;
+  padding: 6% 4%;
+}
+
+.first-paragraph {
+  display: inline-block;
+  background-color: #fff;
+  color: #263555;
+  font-size: 1.375rem;
+}
+
+.second-paragraph {
+  background-color: #38afe5;
+  color: #fff;
+  font-size: 2.125rem;
+}
