@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 60rem;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  width: inherit;
+  height: 3rem;
+  background-color: #FCF101;
+}
+
+.wrapper {
+  height: calc(100vh - 8rem);
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  width: 54.1667%;
+  background-color: #01AEF0;
+}
+
+.sidebar {
+  width: 20.8333%;
+}
+
+.prev-sidebar {
+  background-color: #A8A9AD;
+}
+
+.next-sidebar {
+  background-color: #F25A29;
+}
+
+.footer {
+  width: inherit;
+  height: 3rem;
+  background-color: #03A454;
+}
