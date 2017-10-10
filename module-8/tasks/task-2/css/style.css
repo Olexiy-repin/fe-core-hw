@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 30rem;
+  margin: auto;
+}
+
+.content {
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  background-color: #F8EF7E;
+}
+
+.sidebar {
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  background-color: #B8E986;
+}
+
+@media (min-width: 48rem) {
+  .container {
+    max-width: 48rem;
+    display: flex;
+  }
+
+  .content {
+    width: 80%;
+  }
+
+  .sidebar {
+    width: 20%;
+  }
+}
