@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 64rem;
+  min-width: 30rem;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.orange-block {
+  width: 100%;
+  padding: 5rem;
+  background-color: #F95E40;
+  margin-bottom: 1rem;
+}
+
+.green-block {
+  width: 100%;
+  padding: 5rem;
+  background-color: #00A672;
+  margin-bottom: 1rem;
+}
+
+.blue-block {
+  width: 100%;
+  padding: 3rem;
+  background-color: #2F97DE;
+}
+
+@media (min-width: 48rem) {
+  .green-block {
+    width: 40%;
+    margin-right: 2%;
+    margin-bottom: 0;
+  }
+
+  .blue-block {
+    width: 58%;
+  }
+}
