@@ -3,13 +3,14 @@
   min-width: 30rem;
   margin: auto;
   position: relative;
+  padding: 1.5rem 8.75rem;
 }
 
 /*style for logo*/
 
 .logo {
   display: block;
-  margin: 1rem auto;
+  margin: 0 auto 1rem auto;
   font-family: 'Dorsa', sans-serif;
   width: 4.875rem;
   height: 4.875rem;
@@ -26,8 +27,6 @@
 /*style for menu*/
 
 .list {
-  width: 50%;
-  margin: 0 auto;
   list-style: none;
   text-align: center;
   font-size: 1.25rem;
