@@ -32,7 +32,6 @@
   font-size: 1.25rem;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 .list-item {
@@ -119,6 +118,12 @@
   }
 }
 
+@media (max-width: 64rem) {
+  .list {
+    flex-wrap: wrap;
+  }
+}
+
 @media (min-width: 64rem) {
   .header {
     padding: 6.375rem 6.25rem;
@@ -128,7 +133,6 @@
     width: 100%;
     font-size: 1.75rem;
     margin: 0;
-    flex-wrap: nowrap;
   }
 
   .list-item {
