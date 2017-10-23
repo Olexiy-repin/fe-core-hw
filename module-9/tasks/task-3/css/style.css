@@ -1,0 +1,32 @@
+.container-fluid__width {
+  max-width: 75rem;
+  min-width: 30rem;
+}
+
+.feature {
+  padding: 6rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.feature__yellow {
+  background-color: #FAF180;
+}
+
+.feature__green {
+  background-color: #B8E986;
+}
+
+.grid-item {
+  padding: 4rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.grid-item__orange {
+  background-color: #F6D49B;
+}
+
+.grid-item__pink {
+  background-color: #F69CA7;
+}
