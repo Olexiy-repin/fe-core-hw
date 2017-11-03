@@ -1,7 +1,6 @@
 .header {
-  max-width: 64rem;
+  max-width: 62rem;
   min-width: 30rem;
-  margin: auto;
   position: relative;
   padding: 1.5rem 8.75rem;
 }
@@ -118,13 +117,13 @@
   }
 }
 
-@media (max-width: 64rem) {
+@media (max-width: 62rem) {
   .list {
     flex-wrap: wrap;
   }
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 62rem) {
   .header {
     padding: 6.375rem 6.25rem;
   }
