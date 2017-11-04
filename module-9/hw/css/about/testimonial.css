@@ -1,0 +1,47 @@
+.testimonial-section {
+  z-index: 0;
+}
+
+.testimonial-paragraph {
+  font-size: 0.875rem;
+  color: var(--title-color);
+  box-shadow: 0 0 0.0625rem rgba(0, 0, 0, 0.5);
+  margin-bottom: 3rem;
+  padding: 1rem;
+  background-color: #fcfafa;
+  position: relative;
+}
+
+.testimonial-paragraph::before {
+  content: "\201c";
+}
+
+.testimonial-paragraph::after {
+  content: "\201d";
+}
+
+.author {
+  text-align: center;
+  color: var(--title-color);
+}
+
+.author-post {
+  display: block;
+  font-size: 0.6875rem;
+  color: var(--paragraph-color);
+  margin-top: 0.6rem;
+}
+
+.triangle {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 2rem;
+  height: 2rem;
+  left: 50%;
+  bottom: -7%;
+  transform: translateX(-50%) rotate(45deg);
+  background-color: #fcfafa;
+  box-shadow: 0 0 0.0625rem rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}

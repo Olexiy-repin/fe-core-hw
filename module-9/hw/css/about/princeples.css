@@ -1,0 +1,30 @@
+.princeples-list {
+  list-style: none;
+}
+
+.princeples-list .princeples-list-item {
+  margin-bottom: 1.5rem;
+}
+
+.princeples-list .princeples-list-item:last-child {
+  margin-bottom: 0;
+}
+
+.princeples-article {
+  flex-basis: 80%;
+  margin-left: 2.2rem;
+}
+
+.princeples-list-item::before {
+  display: block;
+  float: left;
+  counter-increment: list;
+  content: counter(list);
+  height: 1.7rem;
+  width: 1.7rem;
+  border-radius: 50%;
+  background-color: #38afe5;
+  color: #fff;
+  text-align: center;
+  line-height: 1.7rem;
+}

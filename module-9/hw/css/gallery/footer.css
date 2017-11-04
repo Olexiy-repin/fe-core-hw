@@ -48,7 +48,6 @@
   }
 
   .contact-title {
-    flex-basis: 32%;
     text-transform: uppercase;
     font-size: 0.875rem;
   }
@@ -64,9 +63,6 @@
   }
 
   .contact-telephone {
-    flex-basis: 32%;
-    display: flex;
-    align-items: center;
     font-size: 0.725rem;
     text-transform: uppercase;
   }
@@ -78,9 +74,6 @@
 
 
   .contact-email {
-    flex-basis: 32%;
-    display: flex;
-    align-items: center;
     font-size: 0.725rem;
     text-transform: none;
     }
@@ -96,11 +89,21 @@
   }
 
   .contact-title {
+    flex-basis: 32%;
     margin-right: 2%;
   }
 
   .contact-telephone {
+    flex-basis: 32%;
+    display: flex;
+    align-items: center;
     margin-right: 2%;
+  }
+
+  .contact-email {
+    flex-basis: 32%;
+    display: flex;
+    align-items: center;
   }
 }
 

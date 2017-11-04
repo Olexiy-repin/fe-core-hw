@@ -12,3 +12,9 @@ body {
   background-size: cover;
   padding-bottom: 1.5rem;
 }
+
+.container-fluid__width {
+  max-width: 62rem;
+  min-width: 30rem;
+  padding: 0;
+}

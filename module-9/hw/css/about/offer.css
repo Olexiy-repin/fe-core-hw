@@ -1,0 +1,41 @@
+.offer-paragraph {
+  margin-bottom: 2rem;
+}
+
+.offer-list {
+  list-style: none;
+  columns: 2;
+}
+
+.offer-list-link {
+  display: block;
+  text-decoration: none;
+  color: var(--title-color);
+  line-height: 2.5;
+  transition: opacity 0.5s linear;
+  font-size: 0.8rem;
+}
+
+.offer-list-link::before {
+  content: "\2192";
+  color: #5abde9;
+  margin-right: 0.5rem;
+}
+
+.offer-list-link:hover {
+  opacity: 0.5;
+}
+
+.bottom-container section[class*=col-]:first-child {
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 62rem) {
+  .offer-list {
+    width: 80%;
+  }
+
+  .offer-list-link {
+    font-size: 1rem;
+  }
+}
