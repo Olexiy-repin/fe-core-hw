@@ -1,9 +1,9 @@
 @import "../typografic.css";
 @import "base.css";
-@import "../gallery/header.css";
+@import "../header.css";
 @import "profile.css";
 @import "princeples.css";
 @import "offer.css";
 @import "testimonial.css";
-@import "../gallery/footer.css";
-@import "../gallery/social-links.css";
+@import "../footer.css";
+@import "../social-links.css";

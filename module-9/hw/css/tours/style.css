@@ -1,7 +1,7 @@
 @import "../typografic.css";
 @import "base.css";
-@import "../gallery/header.css";
+@import "../header.css";
 @import "tours-specials.css";
 @import "aside.css";
-@import "../gallery/footer.css";
-@import "../gallery/social-links.css";
+@import "../footer.css";
+@import "../social-links.css";

@@ -1,6 +1,6 @@
 @import "../typografic.css";
 @import "base.css";
-@import "header.css";
+@import "../header.css";
 @import "gallery.css";
-@import "footer.css";
-@import "social-links.css";
+@import "../footer.css";
+@import "../social-links.css";
