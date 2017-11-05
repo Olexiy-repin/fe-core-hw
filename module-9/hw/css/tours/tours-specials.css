@@ -1,0 +1,123 @@
+.content-row > div[class*=col-]:first-child {
+  margin-bottom: 3rem;
+}
+
+.card-row div[class*=col-] {
+  margin-bottom: 3rem;
+}
+
+.specials-card {
+  display: flex;
+}
+
+.specials-card:nth-child(n+5) {
+  margin-bottom: 0;
+}
+
+.picture {
+  margin-right: 1rem;
+}
+
+.specials-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.tour-title {
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  color: #263555;
+  margin-bottom: 1.2rem;
+}
+
+.tour-description {
+  font-family: Arial,sans-serif;
+  font-size: 0.875rem;
+  opacity: 0.6;
+  margin-bottom: 0.3rem;
+}
+
+.tour-price {
+  font-family: Arial,sans-serif;
+  font-size: 1.125rem;
+  color: #38afe5;
+  margin-bottom: 1rem;
+}
+
+.tour-price:last-child {
+  margin-bottom: 0;
+}
+
+.details-button {
+  display: inline-block;
+  padding: 0.3rem 1rem;
+  border: 1px solid #d4d0d0;
+  background-color: #fcfafa;
+  border-radius: 0.5rem;
+  color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.details-button:hover {
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 48rem) {
+  .card-row div[class*=col-]:nth-child(n+5) {
+    display: none;
+  }
+
+  .card-row div[class*=col-]:nth-child(4) {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 48rem) {
+  .card-row div[class*=col-]:nth-child(n+5) {
+    margin-bottom: 0;
+  }
+  
+  .tour-title {
+    font-size: 0.875rem;
+  }
+
+  .tour-description {
+    font-size: 0.75rem;
+  }
+
+  .tour-price {
+    font-size: 1rem;
+  }
+
+  .details-button {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 62rem) {
+  .content-row > div[class*=col-]:first-child {
+    margin-bottom: 0;
+  }
+
+  .tour-title {
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+
+  .tour-description {
+    font-size: 0.625rem;
+  }
+
+  .tour-price {
+    font-size: 0.875rem;
+  }
+
+  .details-button {
+    font-size: 0.75rem;
+  }
+}

@@ -37,6 +37,7 @@
     text-transform: uppercase;
     transition: opacity 0.5s linear;
     font-weight: bold;
+    font-size: 0.875rem;
   }
 
   .footer-list-link:hover {
@@ -114,6 +115,10 @@
 
   .footer-row .footer-col[class*=col-]:first-child {
     margin-bottom: 0;
+  }
+
+  .footer-list-link {
+    font-size: 1.125rem;
   }
 
   .contact-title {
