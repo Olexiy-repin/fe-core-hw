@@ -3,11 +3,11 @@
   border-bottom: 1px solid rgba(0,0,0, .2)
 }
 
-.top-section div[class*=col-]:first-child {
+.top-section [class*=col-]:first-child {
   margin-bottom: 2rem;
 }
 
-.top-section div[class*=col-]:last-child {
+.top-section [class*=col-]:last-child {
   padding-bottom: 2.5rem;
 }
 

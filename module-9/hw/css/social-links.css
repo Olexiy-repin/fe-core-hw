@@ -3,8 +3,6 @@
 }
 
 .social-container {
-  max-width: 62rem;
-  min-width: 30rem;
   display: flex;
   justify-content: center;
   margin-top: 2rem;

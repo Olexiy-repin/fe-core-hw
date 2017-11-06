@@ -1,13 +1,14 @@
-.content-row > div[class*=col-]:first-child {
+.content-row > [class*=col-]:first-child {
   margin-bottom: 3rem;
 }
 
-.card-row div[class*=col-] {
+.card-row [class*=col-] {
   margin-bottom: 3rem;
 }
 
 .specials-card {
   display: flex;
+  justify-content: space-between;
 }
 
 .specials-card:nth-child(n+5) {
@@ -15,13 +16,17 @@
 }
 
 .picture {
-  margin-right: 1rem;
+  flex-basis: 46%;
 }
 
 .specials-img {
   display: block;
   width: 100%;
   height: auto;
+}
+
+.specials-body {
+  flex-basis: 50%;
 }
 
 .tour-title {
@@ -68,20 +73,20 @@
 }
 
 @media (max-width: 48rem) {
-  .card-row div[class*=col-]:nth-child(n+5) {
+  .card-row [class*=col-]:nth-child(n+5) {
     display: none;
   }
 
-  .card-row div[class*=col-]:nth-child(4) {
+  .card-row [class*=col-]:nth-child(4) {
     margin-bottom: 0;
   }
 }
 
 @media (min-width: 48rem) {
-  .card-row div[class*=col-]:nth-child(n+5) {
+  .card-row [class*=col-]:nth-child(n+5) {
     margin-bottom: 0;
   }
-  
+
   .tour-title {
     font-size: 0.875rem;
   }
@@ -100,7 +105,7 @@
 }
 
 @media (min-width: 62rem) {
-  .content-row > div[class*=col-]:first-child {
+  .content-row > [class*=col-]:first-child {
     margin-bottom: 0;
   }
 

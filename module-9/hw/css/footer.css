@@ -1,12 +1,10 @@
 .footer {
-  max-width: 62rem;
-  min-width: 30rem;
   font-family: OpenSans;
   padding: 1.5rem 6.5rem;
   background-color: #30455b;
   }
 
-  .footer-row div[class*=col-]:first-child {
+  .footer-row [class*=col-]:first-child {
     margin-bottom: 1rem;
   }
 
@@ -70,7 +68,7 @@
 
 
   .telephone-icon {
-    background-image: url(../../img/gallery-img/images-480/telephone.png);
+    background-image: url(../img/gallery-img/images-480/telephone.png);
   }
 
 
@@ -80,7 +78,7 @@
     }
 
     .email-icon {
-      background-image: url(../../img/gallery-img/images-480/email.png);
+      background-image: url(../img/gallery-img/images-480/email.png);
     }
 
 @media (max-width: 48rem) {
@@ -113,7 +111,7 @@
     padding: 2.375rem 3.75rem;
   }
 
-  .footer-row .footer-col[class*=col-]:first-child {
+  .footer-row [class*=col-]:first-child {
     margin-bottom: 0;
   }
 
