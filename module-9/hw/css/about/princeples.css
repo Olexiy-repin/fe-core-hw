@@ -1,12 +1,8 @@
-.princeples-list {
-  list-style: none;
-}
-
-.princeples-list .princeples-list-item {
+.princeples-list-row > [class*=col-] {
   margin-bottom: 1.5rem;
 }
 
-.princeples-list .princeples-list-item:last-child {
+.princeples-list-row > [class*=col-]:last-child {
   margin-bottom: 0;
 }
 
@@ -15,7 +11,7 @@
   margin-left: 2.2rem;
 }
 
-.princeples-list-item::before {
+.princeples-article-container::before {
   display: block;
   float: left;
   counter-increment: list;
@@ -27,4 +23,10 @@
   color: #fff;
   text-align: center;
   line-height: 1.7rem;
+}
+
+@media (min-width:48rem) and (max-width: 62rem) {
+  .princeples-list-row > [class*=col-] {
+    margin-bottom: 0;
+  }
 }
