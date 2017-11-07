@@ -1,0 +1,22 @@
+.container {
+  max-width: 62rem;
+  min-width: 30rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 600px;
+  height: 300px;
+  background-image: url(../img/tech.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution:192dpi) {
+  .box {
+    background-image: url(../img/tech-2x.jpg);
+
+  }
+}
