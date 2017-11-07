@@ -1,0 +1,16 @@
+.container {
+  max-width: 62rem;
+  min-width: 30rem;
+  margin: auto;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon {
+  width: 6rem;
+  height: 6rem;
+  fill: #fff;
+}
