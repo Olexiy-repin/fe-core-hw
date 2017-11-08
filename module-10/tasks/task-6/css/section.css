@@ -1,0 +1,25 @@
+.section__title {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.section__gallery {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section__element {
+  flex-basis: 33%;
+}
+
+.section__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: all 1s linear;
+}
+
+.section__image--hover:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
