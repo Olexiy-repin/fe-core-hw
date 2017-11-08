@@ -1,4 +1,4 @@
-.title__link {
+.logo__link {
   display: block;
   text-decoration: none;
   color: #000;
@@ -8,6 +8,6 @@
   transition: transform 0.3s linear;
 }
 
-.title__link--hover:hover {
+.logo__link--hover:hover {
   transform: scale(1.2,1.2);
 }

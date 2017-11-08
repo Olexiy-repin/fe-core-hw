@@ -1,0 +1,20 @@
+.gallery__gallery {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery__element {
+  flex-basis: 33%;
+}
+
+.gallery__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: all 1s linear;
+}
+
+.gallery__image--hover:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}

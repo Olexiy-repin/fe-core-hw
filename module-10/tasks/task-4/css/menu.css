@@ -4,7 +4,7 @@
   align-items: center;
 }
 
-.menu__list {
+.list {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -13,7 +13,7 @@
   justify-content: space-between;
 }
 
-.menu__link {
+.list__link {
   display: block;
   color: #000;
   text-decoration: none;
@@ -24,7 +24,7 @@
   border-radius: 6%;
 }
 
-.menu__link--hover:hover {
+.list__link--hover:hover {
   color: #ccc;
   background-color: #000;
 }
