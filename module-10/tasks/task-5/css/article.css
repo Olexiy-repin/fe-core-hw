@@ -1,0 +1,23 @@
+.article {
+  display: flex;
+}
+
+.article__img-container {
+  flex-basis: 20%;
+  margin-right: 1rem;
+}
+
+.article__img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.article__title {
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.article__paragraph {
+  margin-bottom: 0.3rem;
+}
