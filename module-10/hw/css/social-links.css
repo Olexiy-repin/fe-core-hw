@@ -1,0 +1,22 @@
+.socials {
+  display: flex;
+  justify-content: center;
+}
+
+.socials--pt {
+  padding-top: 2rem;
+}
+
+.socials__link--mr {
+  margin-right: 1rem;
+}
+
+.socials__icon {
+  width: 2rem;
+  height: 2rem;
+  transition: fill .3s linear;
+}
+
+.socials__icon--hover:hover {
+  fill: #484A47;
+}

@@ -1,0 +1,143 @@
+.footer {
+  font-family: OpenSans;
+  padding: 1.5rem 6.5rem;
+  background-color: #30455b;
+  }
+
+  .useful-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+  }
+
+  .useful-list__item {
+    flex-basis: 32%;
+    margin-right: 2%;
+    margin-bottom: 0.5rem;
+  }
+
+  .useful-list__item:nth-child(3n+3) {
+    margin: 0;
+  }
+
+  .useful-list__item:nth-child(n+4) {
+    margin-bottom: 0;
+  }
+
+  .useful-list__link {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    transition: opacity .5s linear;
+    font-weight: bold;
+  }
+
+  .useful-list__link--hover:hover {
+    opacity: .5;
+  }
+
+  .contact-block {
+    color: #fff;
+  }
+
+  .contact-block__title {
+    flex-basis: 32%;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+  }
+
+  .contact-block__icon {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 0.3rem;
+  }
+
+  .contact-block__telephone {
+    flex-basis: 32%;
+    display: flex;
+    align-items: center;
+    font-size: 0.725rem;
+    text-transform: uppercase;
+  }
+
+
+  .contact-block__icon--telephone-img {
+    background-image: url(../../img/footer/telephone-min.png);
+  }
+
+
+  .contact-block__email {
+    flex-basis: 32%;
+    display: flex;
+    align-items: center;
+    font-size: 0.725rem;
+    text-transform: none;
+    }
+
+    .contact-block__icon--email-img {
+      background-image: url(../../img/footer/email-min.png);
+    }
+
+@media (max-width: 48rem) {
+  .contact-block {
+    display: flex;
+    align-items: center;
+  }
+
+  .contact-block__title {
+    margin-right: 2%;
+  }
+
+  .contact-block__telephone {
+    margin-right: 2%;
+  }
+}
+
+@media (min-width: 48rem) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.375rem 3.75rem;
+  }
+
+  .useful-list {
+    flex-basis: 85%;
+    padding-bottom: 0;
+  }
+
+  .contact-block__title {
+    font-size: 1.125rem;
+    font-weight: bold;
+  }
+
+  .contact-block__telephone {
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+
+  .contact-block__email {
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+
+  .contact-block__icon {
+    display: none;
+  }
+}
+
+@media (min-width: 64rem) {
+  .footer {
+    padding: 2.375rem 8.5rem;
+  }
+
+  .contact-block {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
