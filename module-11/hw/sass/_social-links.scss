@@ -1,0 +1,29 @@
+$grey: #484A47;
+
+@mixin size-icon($width: 1rem, $height: 1rem) {
+  width: $width;
+  height: $height;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+}
+
+.socials--pt {
+  padding-top: 2rem;
+}
+
+.socials__link--mr {
+  margin-right: 1rem;
+}
+
+.socials__icon {
+  @include size-icon(2rem, 2rem);
+  transition: fill .3s linear;
+}
+
+.socials__icon--hover:hover {
+  fill: $grey;
+  
+}
